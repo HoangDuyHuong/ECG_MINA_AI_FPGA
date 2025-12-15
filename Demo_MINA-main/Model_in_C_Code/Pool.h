@@ -1,0 +1,13 @@
+void Padding_Pool_0(float input_Pad_Pool[1280], float output_Pad_Pool[2568]);
+void Max_Pool1D_0(float input_MaxPooling[2568], float output_MaxPooling[1280]);
+void Padding_Pool_1(float input_Pad_Pool[1280], float output_Pad_Pool[1296]);
+void Max_Pool1D_1(float input_MaxPooling[1296], float output_MaxPooling[1280]);
+void Padding_Pool_2(float input_Pad_Pool[1280], float output_Pad_Pool[1312]);
+void Max_Pool1D_2(float input_MaxPooling[1312], float output_MaxPooling[1280]);
+void Padding_Pool_3(float input_Pad_Pool[1280], float output_Pad_Pool[1312]);
+void Max_Pool1D_3(float input_MaxPooling[1312], float output_MaxPooling[1280]);
+void Padding_Pool_4(float input_Pad_Pool[1280], float output_Pad_Pool[2592]);
+void Max_Pool1D_4(float input_MaxPooling[2592], float output_MaxPooling[1280]);
+void Padding_Pool_5(float input_Pad_Pool[1280], float output_Pad_Pool[1344]);
+void Max_Pool1D_5(float input_MaxPooling[1344], float output_MaxPooling[1280]);
+void GlobalAveragePool1D(float input_GlobalAveragePool1D[1280],float output_GlobalAveragePool1D[32]);
